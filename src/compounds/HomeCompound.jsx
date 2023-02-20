@@ -149,7 +149,6 @@ const MainSubtitle = styled.p`
 
 const CardsWrapper = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
@@ -159,7 +158,7 @@ const NormalCard = styled.div`
   background: white;
   padding: 50px 20px;
   width: 320px;
-  height: 900px;
+  height: fit-content;
   border-radius: 10px;
   margin-top: 10px;
 `
@@ -215,7 +214,6 @@ const MostPopularCard = styled.div`
   border: 3px solid #971a1d;
   padding: 50px 20px;
   width: 320px;
-  height: 900px;
   border-radius: 10px;
   margin-top: 10px;
 `
@@ -231,7 +229,7 @@ const MostPopularLabel = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: -90px;
+  margin-top: -70px;
   margin-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
