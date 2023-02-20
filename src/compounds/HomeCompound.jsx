@@ -47,8 +47,7 @@ export const HomeCompound = () => {
         </NormalCard>
         <MostPopularCard>
           <MostPopularLabel>
-            Most
-            <br /> Popular
+            Best Value
           </MostPopularLabel>
           <CardTitle>Insider</CardTitle>
           <CardPrice>$15/month</CardPrice>
