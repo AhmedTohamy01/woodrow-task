@@ -26,11 +26,17 @@ export const HomeCompound = () => {
           <CardPrice>$10/month</CardPrice>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>VIP access to online events reserved for Nextdoor and Facebook Groups communities*</FeatureText>
+            <FeatureText>
+              VIP access to online events reserved for Nextdoor and Facebook
+              Groups communities*
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>RSVP "observer only" (no Q&A) invitation to weekly online progress meeting</FeatureText>
+            <FeatureText>
+              RSVP "observer only" (no Q&A) invitation to weekly online progress
+              meeting
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
@@ -84,23 +90,37 @@ export const HomeCompound = () => {
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Online access to GovUNLEASHED's state and municipal government public records requests (PRR)</FeatureText>
+            <FeatureText>
+              Online access to GovUNLEASHED's state and municipal government
+              public records requests (PRR)
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Online access to state and municipal government responses (including responsive records) received in response to PRRs</FeatureText>
+            <FeatureText>
+              Online access to state and municipal government responses
+              (including responsive records) received in response to PRRs
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Access to GovUNLEASHED's elected officials & department leaders address book (e-mail addresses & phone numbers)</FeatureText>
+            <FeatureText>
+              Access to GovUNLEASHED's elected officials & department leaders
+              address book (e-mail addresses & phone numbers)
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Premium support for inquiries (guaranteed reply within 4 hours)</FeatureText>
-            <FeatureWrapper>
-            <CheckIcon />
-            <FeatureText>Access to custom system integration services ($250/hour) with GovUNLEASHED's data repository</FeatureText>
+            <FeatureText>
+              Premium support for inquiries (guaranteed reply within 4 hours)
+            </FeatureText>
           </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to custom system integration services ($250/hour) with
+              GovUNLEASHED's data repository
+            </FeatureText>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
         </NormalCard>
@@ -137,9 +157,9 @@ const CardsWrapper = styled.div`
 
 const NormalCard = styled.div`
   background: white;
-  padding: 50px 70px;
-  min-width: 320px;
-  height: 500px;
+  padding: 50px 20px;
+  width: 320px;
+  height: 900px;
   border-radius: 10px;
   margin-top: 10px;
 `
@@ -159,14 +179,12 @@ const CardPrice = styled.p`
 
 const FeatureWrapper = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 `
 
 const CheckIcon = styled(CheckCircle2)`
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   fill: #54c841;
   color: white;
   margin-right: 5px;
@@ -174,7 +192,6 @@ const CheckIcon = styled(CheckCircle2)`
 
 const FeatureText = styled.p`
   font-size: 18px;
-  text-align: center;
 `
 
 const SignupButton = styled.button`
@@ -196,9 +213,9 @@ const SignupButton = styled.button`
 const MostPopularCard = styled.div`
   background: white;
   border: 3px solid #54c841;
-  padding: 70px;
-  min-width: 320px;
-  height: 530px;
+  padding: 50px 20px;
+  width: 320px;
+  height: 900px;
   border-radius: 10px;
   margin-top: 10px;
 `
@@ -215,7 +232,7 @@ const MostPopularLabel = styled.div`
   align-items: center;
   text-align: center;
   margin-top: -90px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
 `
