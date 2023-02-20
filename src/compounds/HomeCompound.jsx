@@ -24,6 +24,7 @@ export const HomeCompound = () => {
         <NormalCard>
           <CardTitle>Groupie</CardTitle>
           <CardPrice>$10/month</CardPrice>
+          <CardLabel>Everything in Follower and ...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
@@ -51,13 +52,18 @@ export const HomeCompound = () => {
           </MostPopularLabel>
           <CardTitle>Insider</CardTitle>
           <CardPrice>$15/month</CardPrice>
+          <CardLabel>Everything in Groupie and ...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>GovUNLEASHED laptop sticker</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Access to Life Groups (e.g., Microbusiness (less than 10 employees) Owners, Selling to Government, and Professional Licensing)</FeatureText>
+            <FeatureText>
+              Access to Life Groups (e.g., Microbusiness (less than 10
+              employees) Owners, Selling to Government, and Professional
+              Licensing)
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
@@ -65,11 +71,18 @@ export const HomeCompound = () => {
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Access to legal professional's vlog on California legislative bills that might impact you</FeatureText>
+            <FeatureText>
+              Access to legal professional's vlog on California legislative
+              bills that might impact you
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>RSVP "full participant" invitation to weekly online progress meeting. Full participants may ask the host or special guest(s) a question.</FeatureText>
+            <FeatureText>
+              RSVP "full participant" invitation to weekly online progress
+              meeting. Full participants may ask the host or special guest(s) a
+              question.
+            </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
@@ -77,13 +90,16 @@ export const HomeCompound = () => {
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Preferred support for inquiries (guaranteed reply within 24 hours)</FeatureText>
+            <FeatureText>
+              Preferred support for inquiries (guaranteed reply within 24 hours)
+            </FeatureText>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
         </MostPopularCard>
         <NormalCard>
           <CardTitle>Data Seeker</CardTitle>
           <CardPrice>$95/month</CardPrice>
+          <CardLabel>Everything in insider and ...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>GovUNLEASHED branded T-shirt</FeatureText>
@@ -176,6 +192,12 @@ const CardPrice = styled.p`
   margin-bottom: 15px;
 `
 
+const CardLabel = styled.p`
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+`
+
 const FeatureWrapper = styled.div`
   display: flex;
   margin-bottom: 10px;
@@ -230,7 +252,7 @@ const MostPopularLabel = styled.div`
   align-items: center;
   text-align: center;
   margin-top: -70px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   margin-right: auto;
   margin-left: auto;
 `
