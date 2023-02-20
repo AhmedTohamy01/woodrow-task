@@ -99,7 +99,7 @@ export const HomeCompound = () => {
         <NormalCard>
           <CardTitle>Data Seeker</CardTitle>
           <CardPrice>$95/month</CardPrice>
-          <CardLabel>Everything in insider and ...</CardLabel>
+          <CardLabel>Everything in Insider and ...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>GovUNLEASHED branded T-shirt</FeatureText>
