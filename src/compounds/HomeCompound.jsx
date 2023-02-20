@@ -185,7 +185,7 @@ const FeatureWrapper = styled.div`
 const CheckIcon = styled(CheckCircle2)`
   min-width: 30px;
   min-height: 30px;
-  fill: #54c841;
+  fill: #971a1d;
   color: white;
   margin-right: 5px;
 `
@@ -198,7 +198,7 @@ const SignupButton = styled.button`
   width: 100%;
   height: 50px;
   padding: 10px 16px;
-  background: #54c841;
+  background: #971a1d;
   color: white;
   border: 1px solid #54c841;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
@@ -212,7 +212,7 @@ const SignupButton = styled.button`
 
 const MostPopularCard = styled.div`
   background: white;
-  border: 3px solid #54c841;
+  border: 3px solid #971a1d;
   padding: 50px 20px;
   width: 320px;
   height: 900px;
@@ -221,7 +221,7 @@ const MostPopularCard = styled.div`
 `
 
 const MostPopularLabel = styled.div`
-  background: #54c841;
+  background: #971a1d;
   color: white;
   width: 140px;
   height: 60px;
