@@ -10,18 +10,14 @@ export const HomeCompound = () => {
       <CardsWrapper>
         <NormalCard>
           <CardTitle>Follower</CardTitle>
-          <CardPrice>$5.5/month</CardPrice>
+          <CardPrice>$5.50/month</CardPrice>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Ad-free content</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
-          </FeatureWrapper>
-          <FeatureWrapper>
-            <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Early access</FeatureText>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
         </NormalCard>
@@ -30,23 +26,15 @@ export const HomeCompound = () => {
           <CardPrice>$10/month</CardPrice>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>VIP access to online events reserved for Nextdoor and Facebook Groups communities*</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>RSVP "observer only" (no Q&A) invitation to weekly online progress meeting</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
-          </FeatureWrapper>
-          <FeatureWrapper>
-            <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
-          </FeatureWrapper>
-          <FeatureWrapper>
-            <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Access to monthly digital newsletter</FeatureText>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
         </NormalCard>
@@ -59,23 +47,31 @@ export const HomeCompound = () => {
           <CardPrice>$15/month</CardPrice>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>GovUNLEASHED laptop sticker</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Access to Life Groups (e.g., Microbusiness (less than 10 employees) Owners, Selling to Government, and Professional Licensing)</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Access to private Facebook group</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Access to legal professional's vlog on California legislative bills that might impact you</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>RSVP "full participant" invitation to weekly online progress meeting. Full participants may ask the host or special guest(s) a question.</FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>State & Municipality Report Cards (SMRC)</FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>Preferred support for inquiries (guaranteed reply within 24 hours)</FeatureText>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
         </MostPopularCard>
@@ -84,23 +80,27 @@ export const HomeCompound = () => {
           <CardPrice>$95/month</CardPrice>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>GovUNLEASHED branded T-shirt</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Online access to GovUNLEASHED's state and municipal government public records requests (PRR)</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Online access to state and municipal government responses (including responsive records) received in response to PRRs</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Access to GovUNLEASHED's elected officials & department leaders address book (e-mail addresses & phone numbers)</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Bla bla bla & bla</FeatureText>
+            <FeatureText>Premium support for inquiries (guaranteed reply within 4 hours)</FeatureText>
+            <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>Access to custom system integration services ($250/hour) with GovUNLEASHED's data repository</FeatureText>
+          </FeatureWrapper>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
         </NormalCard>
