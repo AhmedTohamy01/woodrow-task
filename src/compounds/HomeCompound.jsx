@@ -24,7 +24,7 @@ export const HomeCompound = () => {
         <NormalCard>
           <CardTitle>Groupie</CardTitle>
           <CardPrice>$10/month</CardPrice>
-          <CardLabel>Everything in Follower and ...</CardLabel>
+          <CardLabel>Everything in Follower and...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
@@ -52,7 +52,7 @@ export const HomeCompound = () => {
           </MostPopularLabel>
           <CardTitle>Insider</CardTitle>
           <CardPrice>$15/month</CardPrice>
-          <CardLabel>Everything in Groupie and ...</CardLabel>
+          <CardLabel>Everything in Groupie and...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>GovUNLEASHED laptop sticker</FeatureText>
@@ -99,7 +99,7 @@ export const HomeCompound = () => {
         <NormalCard>
           <CardTitle>Data Seeker</CardTitle>
           <CardPrice>$95/month</CardPrice>
-          <CardLabel>Everything in Insider and ...</CardLabel>
+          <CardLabel>Everything in Insider and...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>GovUNLEASHED branded T-shirt</FeatureText>
@@ -206,7 +206,7 @@ const FeatureWrapper = styled.div`
 const CheckIcon = styled(CheckCircle2)`
   min-width: 30px;
   min-height: 30px;
-  fill: #971a1d;
+  fill: #313235;
   color: white;
   margin-right: 5px;
 `
