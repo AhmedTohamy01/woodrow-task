@@ -220,7 +220,7 @@ const SignupButton = styled.button`
   padding: 10px 16px;
   background: #971a1d;
   color: white;
-  border: 1px solid #54c841;
+  border: 1px solid #971a1d;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
   cursor: pointer;
