@@ -46,9 +46,7 @@ export const HomeCompound = () => {
           <SignupButton>Signup</SignupButton>
         </NormalCard>
         <MostPopularCard>
-          <MostPopularLabel>
-            Best Value
-          </MostPopularLabel>
+          <MostPopularLabel>Best Value</MostPopularLabel>
           <CardTitle>Insider</CardTitle>
           <CardPrice>$15/month</CardPrice>
           <CardLabel>Everything in Groupie and...</CardLabel>
@@ -228,6 +226,11 @@ const SignupButton = styled.button`
   font-size: 18px;
   text-align: center;
   margin-top: 25px;
+
+  :hover {
+    background: white;
+    color: black;
+  }
 `
 
 const MostPopularCard = styled.div`
