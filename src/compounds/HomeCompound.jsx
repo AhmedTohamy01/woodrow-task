@@ -216,9 +216,9 @@ const SignupButton = styled.button`
   width: 100%;
   height: 50px;
   padding: 10px 16px;
-  background: #e7e7e7;
-  color: black;
-  border: 1px solid black;
+  background: #313235;
+  color: white;
+  border: 1px solid #313235;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
   cursor: pointer;
@@ -229,7 +229,7 @@ const SignupButton = styled.button`
 
   :hover {
     background: #971a1d;
-    color: white;
+    border: 1px solid #971a1d;
   }
 `
 
