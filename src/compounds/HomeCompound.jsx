@@ -57,33 +57,28 @@ export const HomeCompound = () => {
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
-              Access to Life Groups (e.g., Microbusiness (less than 10
-              employees) Owners, Selling to Government, and Professional
-              Licensing)
+              Access to life groups (e.g., help getting a government job, resolving a family court case, and obtaining a professional license)
             </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>Access to private Facebook group</FeatureText>
+            <FeatureText>Access to our private Facebook group</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
-              Access to legal professional's vlog on California legislative
-              bills that might impact you
+              Access to legal professional's vlog on California legislative bills impacting residents
             </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
-              RSVP "full participant" invitation to weekly online progress
-              meeting. Full participants may ask the host or special guest(s) a
-              question.
+              RSVP "full participant" invitation to weekly online initiatives progress meeting. Full participants may ask the host or special guest(s) a question.
             </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
-            <FeatureText>State & Municipality Report Cards (SMRC)</FeatureText>
+            <FeatureText>Access to state & municipality report cards (SMRC)</FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
@@ -94,13 +89,85 @@ export const HomeCompound = () => {
           <SignupButton>Signup</SignupButton>
         </MostPopularCard>
         <NormalCard>
-          <CardTitle>Data Seeker</CardTitle>
-          <CardPrice>$95/month</CardPrice>
+          <CardTitle>Microbusiness</CardTitle>
+          <CardPrice>$55/month</CardPrice>
           <CardLabel>Everything in Insider and...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>GovUNLEASHED branded T-shirt</FeatureText>
           </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to legal professional's vlog on California legislative bills impacting microbusinesses
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to our elected officials & department leaders e-mail & phone address book
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to multidisciplinary professional networking events
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to business startup & continuity workshops
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to workshops on using Microsoft Excel 365/2021/2019 to make smarter business decisions
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to business monthly digital newsletter
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to a shared business development SME
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to crime, loss, and fraud prevention workshops
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to local crime summary reports
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Premium support for inquiries (guaranteed reply within 8 hours)
+            </FeatureText>
+          </FeatureWrapper>
+          <FeatureWrapper>
+            <CheckIcon />
+            <FeatureText>
+              Access to professional, trained, & exemplary candidates who were at one time incarcerated or homeless and who are available for long/short term hiring through our Second Chances program (Coming late April)
+            </FeatureText>
+          </FeatureWrapper>
+          <SignupButton>Signup</SignupButton>
+        </NormalCard>
+        <NormalCard>
+          <CardTitle>Data Seeker</CardTitle>
+          <CardPrice>$95/month</CardPrice>
+          <CardLabel>Everything in Insider and...</CardLabel>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
@@ -118,21 +185,13 @@ export const HomeCompound = () => {
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
-              Access to GovUNLEASHED's elected officials & department leaders
-              address book (e-mail addresses & phone numbers)
+              Elite support for inquiries (guaranteed reply within 4 hours)
             </FeatureText>
           </FeatureWrapper>
           <FeatureWrapper>
             <CheckIcon />
             <FeatureText>
-              Premium support for inquiries (guaranteed reply within 4 hours)
-            </FeatureText>
-          </FeatureWrapper>
-          <FeatureWrapper>
-            <CheckIcon />
-            <FeatureText>
-              Access to custom system integration services ($250/hour) with
-              GovUNLEASHED's data repository
+              Access to our growing data repository via Zapier integration (Coming late April)
             </FeatureText>
           </FeatureWrapper>
           <SignupButton>Signup</SignupButton>
